@@ -1,0 +1,11 @@
+/* APpointments Section */
+ .appointments p b{
+    color: black;
+}
+ .appointments p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3vw;
+    color: gray;
+}

@@ -1,0 +1,54 @@
+/* Nabar Section */
+nav .img{
+    display: flex;
+    text-align: center;
+}
+
+nav .img img{
+    height: 2vw;
+    width: 2vw;
+    margin-top: 12%;
+}
+
+nav .img p{
+    font-weight: 600;
+    font-size: 1.3vw;
+}
+nav{
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4vw;
+}
+
+nav .nav-list ul{
+    display: flex;
+
+}
+
+nav .nav-list ul li{
+    font-size: 1.3vw;
+    list-style: none;
+    margin: 0 1vw;
+    color: gray;
+    font-weight: 600;
+}
+nav .nav-list ul li:first-of-type{
+    color: rgb(68, 160, 68);
+} 
+
+@media (min-width:300px) and (max-width:768px) {
+     nav .img img{
+        height: 4vw;
+        width: 4vw;
+        margin-top: 10%;
+    }
+    
+     nav .img p{
+        font-size: 2vw;
+    }
+    
+     nav .nav-list ul li{
+        font-size: 2vw;
+    }
+}

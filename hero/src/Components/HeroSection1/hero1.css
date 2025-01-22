@@ -1,0 +1,247 @@
+.hero-section1-container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    overflow-x: hidden;
+}
+
+/* Nabar Section */
+.hero-section1-container nav .img{
+    display: flex;
+    text-align: center;
+}
+
+.hero-section1-container nav .img img{
+    height: 2vw;
+    width: 2vw;
+    margin-top: 12%;
+}
+
+.hero-section1-container nav .img p{
+    font-weight: 600;
+    font-size: 1.3vw;
+}
+.hero-section1-container nav{
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4vw;
+}
+
+.hero-section1-container nav .nav-list ul{
+    display: flex;
+
+}
+
+.hero-section1-container nav .nav-list ul li{
+    font-size: 1.3vw;
+    list-style: none;
+    margin: 0 1vw;
+    color: gray;
+    font-weight: 600;
+}
+.hero-section1-container nav .nav-list ul li:first-of-type{
+    color: rgb(68, 160, 68);
+} 
+
+/* Hero Section */
+.hero-section1-container .hero1-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2vw 0;
+}
+
+.hero-section1-container .hero1-text .hero1-paragraph p{
+    font-size: 1vw;
+    font-weight: 600;
+    margin-bottom: 0.5vw;
+}
+
+.hero-section1-container .hero1-text .hero1-paragraph img{
+    width: 20%;
+}
+.hero-section1-container .hero1-text .header .h1{
+    /* font-family:Arial, Helvetica, sans-serif; */
+    letter-spacing: 1px;
+    font-size: 5vw;
+    font-weight: 600;
+    
+}
+
+.hero-section1-container .hero1-text .header span{
+    margin: 0 1px;
+}
+.hero-section1-container .hero1-text .header p:nth-of-type(1){
+    margin-bottom: -1vw;
+    margin-top: 0;
+}
+.hero-section1-container .hero1-text .header p:nth-of-type(2){
+    margin-top: 0;
+    margin-left: 6vw;
+    position: relative;
+    top: 1vw;
+    right: 2.5vw;
+}
+
+.hero-section1-container .hero1-text .header p:nth-of-type(2) span img{
+    position: absolute;
+    right: 17.7vw;
+    top: 01vw;
+    width: 4vw;
+
+}
+
+.hero-section1-container .buttons{
+    margin: 2vw;
+    display: flex; 
+     gap: 2vw;
+     justify-content: center;
+
+}
+
+.hero-section1-container .buttons button{
+    font-size: 1vw;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5vw;
+    margin-bottom: 0;
+    
+    border-radius: 0.5vw;
+    border: none;
+    box-shadow: 4px 0 10px 4px rgb(190, 189, 189);
+    padding: 1vw 2vw;
+} 
+ .hero-section1-container .buttons button .react_icon{
+    font-size: 1.5vw;
+    
+}
+
+
+.hero-section1-container .buttons .book{
+    background-color: rgb(27, 26, 26);
+    color: white;
+    display: flex;
+    gap: 0.2vw;
+    text-align: center;
+}
+
+
+.hero-section1-container .buttons .services{
+    background-color: white;
+    color: black;
+    display: flex;
+}
+
+.hero-section1-container .hero1-text .header .bold_dot {
+    font-size: 2.3vw;
+    margin-top: 2vw;
+    margin-right: 2vw;
+}
+
+.green{
+    color: rgb(68, 160, 68);
+}
+button:hover{
+    cursor: pointer;
+}
+
+/* Gallery */
+
+.hero-section1-container .hero1-gallery .gallery-images {
+    display: flex;
+    list-style: none;
+    padding: 2vw 0;
+}
+
+.hero-section1-container .hero1-gallery .gallery-images li img {
+    width: 17vw;
+    height: 15vw;
+    border-radius: 15px;
+    margin: 0 1.5vw;
+}
+
+/* APpointments Section */
+.hero-section1-container .appointments p b{
+    color: black;
+}
+.hero-section1-container .appointments p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3vw;
+    color: gray;
+}
+
+@media (min-width:300px) and (max-width:768px) {
+    .hero-section1-container nav .img img{
+        height: 4vw;
+        width: 4vw;
+    }
+    
+    .hero-section1-container nav .img p{
+        font-size: 2vw;
+    }
+    
+    .hero-section1-container nav .nav-list ul li{
+        font-size: 2vw;
+    }
+
+    /* Hero Section */
+.hero-section1-container .hero1-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2vw 0;
+}
+
+.hero-section1-container .hero1-text .hero1-paragraph p{
+    font-size: 1.5vw;
+}
+
+.hero-section1-container .hero1-text .hero1-paragraph img{
+    width: 30%;
+    margin-bottom: 3vw;
+}
+.hero-section1-container .hero1-text .header .h1{
+    font-size: 6vw;
+}
+
+.hero-section1-container .hero1-text .header span{
+    margin: 0 1px;
+}
+
+.hero-section1-container .hero1-text .header p:nth-of-type(2) span img{
+    right: 9vw;
+    top: 0.5vw;
+    width: 6vw;
+
+}
+
+.hero-section1-container .buttons{
+     gap: 3vw;
+     margin-top: 3vw;
+}
+
+.hero-section1-container .buttons button{
+    font-size: 2vw;
+    padding: 2vw;
+} 
+ .hero-section1-container .buttons button .react_icon{
+    font-size: 2.5vw;
+}
+
+/* Gallery */
+
+.hero-section1-container .hero1-gallery .gallery-images {
+    padding: 10vw 0;
+}
+
+.hero-section1-container .hero1-gallery .gallery-images li img {
+    width: 25vw;
+    height: 25vw;
+}
+
+}

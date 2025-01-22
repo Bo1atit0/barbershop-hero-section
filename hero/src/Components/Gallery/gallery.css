@@ -1,0 +1,28 @@
+/* Gallery */
+
+ .hero1-gallery .gallery-images {
+    display: flex;
+    list-style: none;
+    padding: 2vw 0;
+}
+
+ .hero1-gallery .gallery-images li img {
+    width: 17vw;
+    height: 15vw;
+    border-radius: 15px;
+    margin: 0 1.5vw;
+}
+
+@media (min-width:300px) and (max-width:768px){
+    /* Gallery */
+
+.hero1-gallery .gallery-images {
+    padding: 10vw 0;
+}
+
+.hero1-gallery .gallery-images li img {
+    width: 25vw;
+    height: 25vw;
+}
+
+}
