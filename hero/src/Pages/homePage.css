@@ -1,0 +1,98 @@
+@keyframes shake {
+    0%, 100%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-20px);
+    }
+    50%{
+        transform: translateX(20px);
+    }
+    75%{
+        transform: translateX(-20px);
+    }
+}
+
+@keyframes vibrate {
+    0%, 100%{
+        transform: translate(0, 0);
+    }
+    25%{
+        transform: translate(-2px, 2px);
+    }
+    50%{
+        transform: translate(2px, -2px);
+    }
+    75%{
+        transform: translate(-2px, 2px);
+    }
+}
+
+@keyframes rotate {
+    0%, 100%{
+        transform: rotateX(0deg);
+    }
+    25%{
+        transform: rotateX(20deg);
+    }
+    50%{
+        transform: rotateX(-20deg);
+    }
+    75%{
+        transform: rotateX(20deg);
+    }
+}
+
+@keyframes rotateHorizontally1 {
+    0%, 100% {
+      transform: rotate(0deg); /* Start and end at the original position */
+    }
+    25% {
+      transform: rotate(10deg); /* Slight clockwise rotation */
+    }
+    50% {
+      transform: rotate(-10deg); /* Slight counterclockwise rotation */
+    }
+    75% {
+      transform: rotate(10deg); /* Small clockwise rotation */
+    }
+  }
+  
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8vw;
+    margin: 0;
+    padding: 0;
+    
+    overflow: hidden; /* Ensures no scrollbars for the entire document */
+    
+    color: black;
+}
+
+.home h1{
+    text-align: center;
+    font-size: 4vw;
+}
+
+.home .home-container{
+    display: flex;
+    gap: 5vw;
+}
+
+.home .home-container a img {
+    width: 20vw;
+    height: 18vw;
+    border-radius: 15px;
+    box-shadow: 4px 0 10px 4px rgb(190, 189, 189);
+    /* animation: shake 1s infinite; */
+    /* animation: vibrate 1s infinite ease-in-out; */
+    
+    animation: rotateHorizontally 0.8s infinite;
+}
+
+.home .home-container .hero1  a img{
+    
+}

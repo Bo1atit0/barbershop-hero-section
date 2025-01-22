@@ -21,34 +21,34 @@ nav{
     padding: 0 4vw;
 }
 
-nav .nav-list ul{
+ .nav-list ul{
     display: flex;
 
 }
 
-nav .nav-list ul li{
+ .nav-list ul li{
     font-size: 1.3vw;
     list-style: none;
     margin: 0 1vw;
     color: gray;
     font-weight: 600;
 }
-nav .nav-list ul li:first-of-type{
+.hero1-nav .nav-list ul li:first-of-type{
     color: rgb(68, 160, 68);
 } 
 
 @media (min-width:300px) and (max-width:768px) {
-     nav .img img{
+     .hero1-nav .img img{
         height: 4vw;
         width: 4vw;
         margin-top: 10%;
     }
     
-     nav .img p{
+     .hero1-nav .img p{
         font-size: 2vw;
     }
     
-     nav .nav-list ul li{
+     .hero1-nav .nav-list ul li{
         font-size: 2vw;
     }
 }
