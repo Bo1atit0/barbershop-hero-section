@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/barbershop-hero-section/static/css/main.656625e0.css",
-    "main.js": "/barbershop-hero-section/static/js/main.3019ac9d.js",
+    "main.css": "/barbershop-hero-section/static/css/main.197016e4.css",
+    "main.js": "/barbershop-hero-section/static/js/main.51def40a.js",
     "static/media/image3.png": "/barbershop-hero-section/static/media/image3.580d42372e1de6b038aa.png",
     "static/media/image4.png": "/barbershop-hero-section/static/media/image4.24d7198e08109a32fa4f.png",
     "static/media/image1.png": "/barbershop-hero-section/static/media/image1.b58b61f28612e0ddb2e1.png",
@@ -11,11 +11,11 @@
     "static/media/heroimage1.jpeg": "/barbershop-hero-section/static/media/heroimage1.9acd788bac6e237d5373.jpeg",
     "static/media/image6.png": "/barbershop-hero-section/static/media/image6.0e69803bb5a5c8b3514b.png",
     "index.html": "/barbershop-hero-section/index.html",
-    "main.656625e0.css.map": "/barbershop-hero-section/static/css/main.656625e0.css.map",
-    "main.3019ac9d.js.map": "/barbershop-hero-section/static/js/main.3019ac9d.js.map"
+    "main.197016e4.css.map": "/barbershop-hero-section/static/css/main.197016e4.css.map",
+    "main.51def40a.js.map": "/barbershop-hero-section/static/js/main.51def40a.js.map"
   },
   "entrypoints": [
-    "static/css/main.656625e0.css",
-    "static/js/main.3019ac9d.js"
+    "static/css/main.197016e4.css",
+    "static/js/main.51def40a.js"
   ]
 }
