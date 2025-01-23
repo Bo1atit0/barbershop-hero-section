@@ -2,6 +2,7 @@
 nav .img{
     display: flex;
     text-align: center;
+    cursor: pointer;
 }
 
 nav .img img{
@@ -32,6 +33,7 @@ nav{
     margin: 0 1vw;
     color: gray;
     font-weight: 600;
+    cursor: pointer;
 }
 .hero1-nav .nav-list ul li:first-of-type{
     color: rgb(68, 160, 68);

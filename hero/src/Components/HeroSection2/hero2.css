@@ -12,11 +12,15 @@
     
 }
 
+.hero2-container .hero2-nav .img{
+    cursor: pointer;
+}
+
 .hero2-container .hero2-nav .nav-list ul li{
     color: white;
     font-weight: 300;
     font-size: 1.2vw;
-
+    cursor: pointer;
 }
 
 .hero2-container .hero2-text{

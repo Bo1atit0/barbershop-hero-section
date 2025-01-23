@@ -8,7 +8,7 @@ import HeroPage2 from './Pages/heroPage2'
 const App = () => {
   return (
 
-      <Router>
+      <Router basename='/barbershop-hero-section'>
         <section className='app'>
 
         <Routes>
