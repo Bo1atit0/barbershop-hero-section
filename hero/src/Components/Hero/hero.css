@@ -4,6 +4,8 @@
     flex-direction: column;
     text-align: center;
     padding: 2vw 0;
+    
+    
 }
 
 .hero1-text .hero1-paragraph p{
@@ -15,36 +17,45 @@
 .hero1-text .hero1-paragraph img{
     width: 20%;
 }
+
+.hero1-text .header p:nth-of-type(1) span{
+    margin: 0;
+}
+.hero1-text .header .p-img{
+    margin-top: 0;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hero1-text .header .p-img p{
+    margin-left: 4%;
+    font-size: 6vw;
+}
+.hero1-text .header .p-img p span{
+    margin: 0;
+}
+.hero1-text .header .p-img img{
+    width: 4.5%;
+    margin-left: -1.2vw;
+    margin-top: 1.8%
+}
+
 .hero1-text .header .h1{
     /* font-family:Arial, Helvetica, sans-serif; */
     letter-spacing: 1px;
-    font-size: 5vw;
+    font-size: 4.5vw;
     font-weight: 600;
     
 }
 
-.hero1-text .header span{
-    margin: 0 1px;
-}
 .hero1-text .header p:nth-of-type(1){
     margin-bottom: -1vw;
     margin-top: 0;
 }
-.hero1-text .header p:nth-of-type(2){
-    margin-top: 0;
-    margin-left: 6vw;
-    position: relative;
-    top: 1vw;
-    right: 2.5vw;
-}
 
-.hero1-text .header p:nth-of-type(2) span img{
-    position: absolute;
-    right: 18.3vw;
-    top: 01vw;
-    width: 4vw;
 
-}
 
 .buttons{
     display: flex; 
@@ -66,18 +77,12 @@ button:hover{
     cursor: pointer;
 }
 
-@media (min-width:300px) and (max-width:768px) {
+@media (min-width:300px) and (max-width:500px) {
      /* Hero Section */
  .hero1-text{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
     padding-top: 7vw;
 }
 
-.hero1-text .hero1-paragraph {
-
-}
  .hero1-text .hero1-paragraph p{
     font-size: 1.5vw;
 }
@@ -89,17 +94,23 @@ button:hover{
  .hero1-text .header .h1{
     font-size: 6vw;
 }
+.hero1-text .header p{
+    margin-right: 0vw;
+}
+.hero1-text .header .p-img{
+    margin-top: 0;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
- .hero1-text .header span{
-    margin: 0 1px;
+}
+.hero1-text .header .p-img img{
+    width: 4.5%;
+    margin-top: 0%;
 }
 
- .hero1-text .header p:nth-of-type(2) span img{
-    right:11vw;
-    top: 0.5vw;
-    width: 6vw;
 
-}
 
 .buttons{
     margin-top: 6vw;
@@ -109,12 +120,6 @@ button:hover{
     margin-bottom: 0;
     margin-top: 0;
 }
-.hero1-text .header p:nth-of-type(2){
-    margin-top: -2vw;
-    margin-left: 6vw;
-    
-    top: 4vw;
-    
-}
 
 }
+

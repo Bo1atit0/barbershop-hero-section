@@ -44,12 +44,13 @@ const hero2 = () => {
           <span className='h1'>FEEL</span> <span className='h1 gold'>GREAT<span className='bold_dot'>•</span></span>
           </p>
 
-          <p>
-               <span className='h1'>EVERY</span> <span className='h1'>TIME</span>
-            <span>
-              <img src={scissors_image2} alt="Scissors" />
-            </span>
-          </p>
+          <div className="p-img2">
+            <p>
+              <span className='h1'>EVERY</span> <span className='h1'>TIME</span>
+            </p>
+            <img src={scissors_image2} alt="Scissors" />
+          </div>
+          
   
           <div className="buttons">
             <Button color='white' text='Book Your Appointment' icon={MdOutlineCalendarMonth}/>
