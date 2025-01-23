@@ -8,6 +8,18 @@
     }
 }
 
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
 /* Gallery */
 
 .hero1-gallery{
@@ -21,24 +33,28 @@
     
     list-style: none;
     padding: 2vw 0;
-    animation: scroll 8s linear infinite;
+    animation: scroll 10s linear infinite;
     
 }
 
 .hero1-gallery:hover .gallery-images {
     animation-play-state: paused;
     cursor: pointer;
+    
 }
 
  .hero1-gallery .gallery-images li img {
      width: 17vw;
     height: 15vw; 
     border-radius: 15px;
-    margin: 0 1.5vw;
-    transition: transform 0.4s ease-in-out;
+    margin: 0 1vw;
+    animation: rotate 10s linear infinite;
+    /* transition: transform 0.4s ease-in-out; */
+    animation-timing-function: linear;
 }
 .hero1-gallery .gallery-images li img:hover{
-    transform: rotate(-10deg);
+    animation-play-state: paused;
+    /* transform: rotate(0deg) scale(1.1); */
 }
 
 @media (min-width:300px) and (max-width:768px){

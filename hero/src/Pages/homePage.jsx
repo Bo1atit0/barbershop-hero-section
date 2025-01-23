@@ -7,7 +7,7 @@ import heroImage2 from '../Assets/Images/heroimage2.jpeg'
 const homePage = () => {
   return (
     <section className='home'>
-        <h1>Click to view Hero Page</h1>
+        <h1>Click To View</h1>
 
         <div className="home-container">
             <div className="hero1">
