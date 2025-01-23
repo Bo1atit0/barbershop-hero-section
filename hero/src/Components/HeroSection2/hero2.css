@@ -9,12 +9,33 @@
     position: relative;
     color: white;
     position: relative;
+    
+}
+
+.hero2-container .hero2-nav .nav-list ul li{
+    color: white;
+    font-weight: 300;
+    font-size: 1.2vw;
+
 }
 
 .hero2-container .hero2-text{
     position: absolute;
     left: 4vw;
-    top: 10vw;
+    top: 13vw;
+}
+
+.hero2-container .hero2-nav .nav-list ul .white {
+    color: black;
+    background: white;
+    width: 5vw;
+    height: 2.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: -0.4vw;
 }
 
 .hero2-container .hero2-text .hero2-paragraph{
@@ -30,6 +51,75 @@
     width: 10vw;
 }
 
-.hero2-container .hero2-text header{
+.hero2-container .hero2-text .header2 p{
+    font-size: 4vw;
+    letter-spacing: 1px;
+    line-height: 4vw;
+    font-weight: 700;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+    position: relative;
+}
+
+.hero2-container .hero2-text .header2 p .bold_dot{
+    font-size: 2vw;
+    margin: 0.5vw;
+    color: white;
+}
+
+.hero2-container .hero2-text .header2 p img{
+    position: absolute;
+    width: 3.5vw;
+    right: 3.3vw;
+    top: 0.2vw;
+}
+
+.gold{
+    color: rgb(190, 160, 82);
+}
+
+.hero2-container .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3vw 0 0 -2vw;
+}
+
+@media (min-width:300px) and (max-width: 768px) {
+    .hero2-container{
+        height: 50vh;
+        top: 25vh;
+    }
+
+    .hero2-container .hero2-text .hero2-paragraph{
+        font-size: 1.2vw;
+    }
     
+    .hero2-container .hero2-text .hero2-paragraph img{
+        height: 1vw;
+        width: 14vw;
+    }
+    
+    .hero2-container .hero2-text .header2 p{
+        font-size: 5vw;
+        letter-spacing: 1.5px;
+        line-height: 4.5vw;
+        font-weight: 700;
+        margin-top: 1vw;
+        margin-bottom: 0.5vw;
+        position: relative;
+    }
+    
+    .hero2-container .hero2-text .header2 p .bold_dot{
+        font-size: 2.5vw;
+
+    }
+    
+    .hero2-container .hero2-text .header2 p img{
+        position: absolute;
+        width: 5vw;
+        right: 14.3vw;
+        top: -0.8vw;
+    
+    }
 }

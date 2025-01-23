@@ -18,6 +18,13 @@ const gallery = () => {
           <li><img src={Image4} alt="Image4" /></li>
           <li><img src={Image5} alt="Image5" /></li>
           <li><img src={Image6} alt="Image6" /></li>
+
+          <li><img src={Image1} alt="Image1" /></li>
+          <li><img src={Image2} alt="Image2" /></li>
+          <li><img src={Image3} alt="Image3" /></li>
+          <li><img src={Image4} alt="Image4" /></li>
+          <li><img src={Image5} alt="Image5" /></li>
+          <li><img src={Image6} alt="Image6" /></li>
         </ul>
       </div>
     </section>

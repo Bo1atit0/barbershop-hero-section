@@ -3,6 +3,8 @@ import './hero2.css'
 import arrow from '../../Assets/Images/rightArrow.png'
 import scissors_image2 from '../../Assets/Images/scissors2.png'
 import Button from '../Buttons/button'
+import { MdOutlineCalendarMonth } from "react-icons/md";
+import { MdOutlineMiscellaneousServices } from "react-icons/md";
 
 const hero2 = () => {
   return (
@@ -33,7 +35,7 @@ const hero2 = () => {
           <img src={arrow} alt="Line" />
         </div>
         
-        <div className="header">
+        <div className="header2">
           <p>
             <span className='h1'>LOOK</span> <span className='h1 gold'>GOOD<span className='bold_dot'>•</span></span>
           </p>
@@ -50,7 +52,8 @@ const hero2 = () => {
           </p>
   
           <div className="buttons">
-            <Button />
+            <Button color='white' text='Book Your Appointment' icon={MdOutlineCalendarMonth}/>
+            <Button color='transparent' text='Explore Our Services' icon={MdOutlineMiscellaneousServices} />
           </div>
         </div>
       </div>

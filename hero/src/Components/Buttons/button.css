@@ -1,9 +1,9 @@
 .button-component{
-    margin: 2vw;
+    
     display: flex; 
-     gap: 2vw;
      justify-content: center;
-
+     gap: 0.5vw;
+     margin: 0 0.5vw;
 }
 
 .button-component button{
@@ -14,10 +14,10 @@
     margin-top: 1.5vw;
     margin-bottom: 0;
     
-    border-radius: 0.5vw;
+    border-radius: 1vw;
     border: none;
     box-shadow: 4px 0 10px 4px rgb(190, 189, 189);
-    padding: 1vw 2vw;
+    padding: 1vw;
 } 
  .button-component button .react_icon{
     font-size: 1.5vw;
@@ -25,29 +25,31 @@
 }
 
 
-.button-component .book{
+.button-component .black{
     background-color: rgb(27, 26, 26);
     color: white;
     display: flex;
-    gap: 0.2vw;
     text-align: center;
 }
 
 
-.button-component .services{
+.button-component .white{
     background-color: white;
     color: black;
     display: flex;
 }
 
+.button-component .transparent{
+    background: transparent;
+    color: white;
+}
 @media (min-width:300px) and (max-width:768px) {
     .button-component{
-        gap: 3vw;
-        margin-top: 3vw;
+        margin-top: 2vw;
    }
    
     .button-component button{
-       font-size: 2vw;
+       font-size: 1.7vw;
        padding: 2vw;
    } 
      .button-component button .react_icon{

@@ -4,6 +4,9 @@ import icon2 from '../../Assets/Images/hero1_icon.png'
 import scissors_image from '../../Assets/Images/scissors.png'
 import Button from '../Buttons/button'
 
+import { MdOutlineCalendarMonth } from "react-icons/md";
+import { MdOutlineMiscellaneousServices } from "react-icons/md";
+
 const hero = () => {
   return (
     <section>
@@ -28,7 +31,8 @@ const hero = () => {
           </p>
   
           <div className="buttons">
-            <Button />
+            <Button color='white' text='Book Your Appointment' icon={MdOutlineCalendarMonth}/>
+            <Button color='black' text='Explore Our Services' icon={MdOutlineMiscellaneousServices}/>
           </div>
         </div>
       </div>
