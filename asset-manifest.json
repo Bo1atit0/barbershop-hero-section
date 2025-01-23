@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/barbershop-hero-section/static/css/main.7ab358c8.css",
-    "main.js": "/barbershop-hero-section/static/js/main.f347ad0e.js",
+    "main.js": "/barbershop-hero-section/static/js/main.3019ac9d.js",
     "static/media/image3.png": "/barbershop-hero-section/static/media/image3.580d42372e1de6b038aa.png",
     "static/media/image4.png": "/barbershop-hero-section/static/media/image4.24d7198e08109a32fa4f.png",
     "static/media/image1.png": "/barbershop-hero-section/static/media/image1.b58b61f28612e0ddb2e1.png",
@@ -12,10 +12,10 @@
     "static/media/image6.png": "/barbershop-hero-section/static/media/image6.0e69803bb5a5c8b3514b.png",
     "index.html": "/barbershop-hero-section/index.html",
     "main.7ab358c8.css.map": "/barbershop-hero-section/static/css/main.7ab358c8.css.map",
-    "main.f347ad0e.js.map": "/barbershop-hero-section/static/js/main.f347ad0e.js.map"
+    "main.3019ac9d.js.map": "/barbershop-hero-section/static/js/main.3019ac9d.js.map"
   },
   "entrypoints": [
     "static/css/main.7ab358c8.css",
-    "static/js/main.f347ad0e.js"
+    "static/js/main.3019ac9d.js"
   ]
 }
