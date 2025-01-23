@@ -1,4 +1,4 @@
-@keyframes shake {
+/* @keyframes shake {
     0%, 100%{
         transform: translateX(0);
     }
@@ -11,7 +11,7 @@
     75%{
         transform: translateX(-20px);
     }
-}
+} */
 
 @keyframes vibrate {
     0%, 100%{
@@ -28,7 +28,7 @@
     }
 }
 
-@keyframes rotate {
+ /* @keyframes rotate {
     0%, 100%{
         transform: rotateX(0deg);
     }
@@ -40,10 +40,10 @@
     }
     75%{
         transform: rotateX(20deg);
-    }
-}
+    } 
+} */
 
-@keyframes rotateHorizontally1 {
+@keyframes rotateHorizontally {
     0%, 100% {
       transform: rotate(0deg); /* Start and end at the original position */
     }
@@ -90,9 +90,30 @@
     /* animation: shake 1s infinite; */
     /* animation: vibrate 1s infinite ease-in-out; */
     
-    animation: rotateHorizontally 0.8s infinite;
+    animation: rotateHorizontally 2s infinite;
 }
 
-.home .home-container .hero1  a img{
+.home .home-container a img:hover{
+    animation-play-state: paused;
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+    .home {
+        padding: 7vw 0;
+        gap: 3vw;
+    }
     
+    .home h1{
+        font-size: 6vw;
+    }
+    
+    .home .home-container{
+        flex-direction: column;
+        gap: 6vw;
+    }
+    
+    .home .home-container a img {
+        width: 40vw;
+        height: 40vw;
+    }
 }
