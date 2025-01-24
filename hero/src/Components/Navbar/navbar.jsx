@@ -1,5 +1,5 @@
 import React from 'react';
-import icon from '../../Assets/Images/navbar_icon.png';
+import icon from '../../Assets/Images/navbar_icon.webp';
 import './navbar.css'
 
 

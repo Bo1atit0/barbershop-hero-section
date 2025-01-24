@@ -1,7 +1,7 @@
 import React from 'react'
 import './hero2.css'
-import arrow from '../../Assets/Images/rightArrow.png'
-import scissors_image2 from '../../Assets/Images/scissors2.png'
+import arrow from '../../Assets/Images/rightArrow.webp'
+import scissors_image2 from '../../Assets/Images/scissors2.webp'
 import Button from '../Buttons/button'
 import { MdOutlineCalendarMonth } from "react-icons/md";
 import { MdOutlineMiscellaneousServices } from "react-icons/md";

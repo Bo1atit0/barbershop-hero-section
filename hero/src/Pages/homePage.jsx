@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './homePage.css'
-import heroImage1 from '../Assets/Images/heroimage1.jpeg'
-import heroImage2 from '../Assets/Images/heroimage2.jpeg'
+import heroImage1 from '../Assets/Images/heroimage1.webp'
+import heroImage2 from '../Assets/Images/heroimage2.webp'
 
 const homePage = () => {
   return (
